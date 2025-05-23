@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>formulario de paciente</h1>
+    </header>
+       <fieldset>
+
+        <legend>Dados Pessoais</legend>
+    <form action="" method="get">
+          <label for="nome"> nome</label>
+          <input type="text" name="nome" id="nome">
+          <label for="">Data de Nascimento</label>
+          <input type="date" name="" id="">
+          <label for=""></label>
+          
+          <label for="sexo">qual o sexo do paciente</label>
+          <select id>"sexo" name"sexo">
+            <option value="masculino"> masculino..</option>
+            <option value="feminino"> feminino..</option>
+            </select>
+
+            <label for="nacionalidade">qual a nacionalidade do paciente</label>
+            <select id>"nacionalidade" name"nacionalidade">
+              <option value="brasileiro"> brasileiro..</option>
+              <option value="equatoriano"> equatoriano..</option>
+              <option value="chileno"> chileno..</option>
+              <option value="argentino"> argentino..</option>
+              <option value="venezuelano"> venezuelano..</option>
+              </select>
+
+              <label for="Tipo sanguíneo do paciente">Tipo sanguíneo do paciente</label>
+            <select id>"nacionalidade" name"nacionalidade">
+              <option value="A-"> A-..</option>
+              <option value="A+"> A+..</option>
+              <option value="O-"> O-..</option>
+              <option value="O+"> O+..</option>
+              <option value="AB"> AB..</option>
+              </select>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço</legend>
+            <label for="endereço">endereço</label>
+          <input type="text" name="endereço" id="endereço">
+          <label for="CEP">CEP</label>
+          <input type="text" name="CEP" id="CEP">
+          <label for="bairro">bairro</label>
+          <input type="text" name="bairro" id="bairro">
+          <label for="cidade">cidade</label>
+          <input type="text" name="cidade" id="cidade"> 
+
+
+            </fieldset>
+
+</body>
+</html>
